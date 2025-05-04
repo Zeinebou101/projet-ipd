@@ -1,0 +1,48 @@
+/* src/components/Header.css */
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.notification-badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    margin-right: 10px;
+}
+
+.app-name {
+    font-size: 24px;
+    color: #343a40;
+}
+
+.menu-section {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Pousse les éléments vers la gauche */
+}
+
+
+.icon {
+    font-size: 24px;
+    color: #343a40;
+    margin-left: 20px;
+    cursor: pointer;
+}
